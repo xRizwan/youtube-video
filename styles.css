@@ -1,0 +1,408 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fcfcfc;
+}
+.nav-bar{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+.menu-icon{
+    font-size: 25px;
+    opacity: 0.7;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+.logo{
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+}
+.logo2{
+    margin-left: 20px;
+}
+.search-bar{
+    position: relative;
+    width: 35rem;
+    margin: 0 10rem;
+    height: 30px;
+    z-index: 9;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    opacity: 0.6;
+}
+.bordered{
+    border: 1px solid black;
+}
+.search-input{
+    border: none;
+    height: 10px;
+    width: 87.5%;
+    outline-color: dodgerblue;
+    padding: 10px;
+    font-size: 15px;
+}
+.search-btn{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    background-color: #f4f4f4;
+    width: 9%;
+    border-left:  1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+    height: 30px;
+}
+.search-icon{
+    display: block;
+    position: relative;
+    top: 7px;
+    font-size: 18px;
+}
+.user-icons{
+    position: absolute;
+    right: 0;
+    right: 10px;
+    display: flex;
+}
+.uicon{
+    margin-right: 30px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7)
+}
+.account-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}
+.user-text{
+    position: relative;
+    top: 4px;
+}
+.mobile-search{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.content-container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-sidebar{
+    width: 400px;
+    margin-left: 20px;
+}
+.video-container{
+    width: 786px;
+    line-height: 30px;
+}
+.yt-title{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+.yt-info{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.extra-info{
+    height: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.extra-icons{
+    opacity: 0.6;
+}
+.info-container{
+    position: relative;
+    top: -20px;
+    opacity: 0.7;
+}
+.info-icon{
+    margin-right: 20px;
+    float: right;
+}
+.text-float{
+    position: relative;
+    top: -7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    opacity: 1;
+    margin-left: 5px;
+}
+.more-icon{
+    cursor: pointer;
+    font-size: 30px;
+    top: -10px;
+}
+.userinfo{
+    margin-top: 15px;
+}
+.outer-user-container{
+    display: flex;
+    flex-direction: row;
+}
+.ui-container{
+    width: 70px;
+    border-radius: 10px;
+}
+.user-image{
+    border-radius: 50%;
+}
+.check-icon{
+    font-size: 12px;
+    position: relative;
+    top: 3px;
+}
+.un-container{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+.name-info{
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.sub-info{
+    font-size: 14px;
+    opacity: 0.9;
+}
+.btn-container{
+    float: right;
+    position: relative;
+    top: -50px;
+}
+.sub-btn{
+    background-color: rgb(248, 16, 16);
+    border: none;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.yt-about{
+    line-height: 5px;
+    padding-left: 70px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.more-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+}
+.top-info{
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+}
+.autoplayer{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+.auto-text{
+    text-transform: uppercase;
+    position: relative;
+    font-size: 12px;
+    color: grey;
+    font-weight: bold;
+    top: 3px;
+}
+.auto-icon{
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+}
+.slider-box{
+    background-color: #e6e6e6;
+    width: 40px;
+    height: 15px;
+    border-radius: 10px;
+}
+.slider-circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: -3px;
+    background-color: rgb(68, 145, 221);
+}
+.nx-video{
+    display: flex;
+    margin-top: 20px;
+}
+.thumb-info{
+    font-size: 14px;
+    margin-left: 5px;
+    line-height: 20px;
+}
+.thumb-title{
+    font-weight: bold;
+    opacity: 0.8;
+    line-height: 16px;
+}
+.thumb-circle{
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+}
+.thumb-poster, .thumb-stats{
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+.hide-overflow{
+    overflow-y: hidden;
+}
+.left-bar{
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-name: bar-in;
+    box-sizing: border-box;
+}
+.top-menu{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.transp{
+    opacity: 20%;
+    margin-top: 15px;
+}
+.bar-item{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.bar-icon{
+    position: relative;
+    top: 4px;
+    opacity: 0.7;
+    font-size: 20px;
+}
+.bar-text{
+    margin-left: 20px;
+    font-size: 14px;
+}
+@keyframes bar-in{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 250px;
+    }
+}
+.bar-outter{
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-name: bar-out;
+    animation-fill-mode: forwards;
+}
+@keyframes bar-out{
+    0%{
+        width: 250px;
+    }
+    100%{
+        width: 0px;
+        display: none;
+    }
+}
+.comment-outer-container{
+    margin-top: 20px;
+}
+.comment-container{
+    display: flex;
+}
+.c-icon{
+    width: 60px;
+    height: 50px;
+}
+.c-text{
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+.comment{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    outline: none;
+}
+.s-btn{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(38, 146, 247);
+    color: white;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+}
+.middle{
+    margin: 0 auto;
+    width: fit-content;
+    display: none;
+}
+@media (max-width: 1039px){
+    .search-bar{
+        width: 25rem;
+        margin: 0 7rem;
+    }
+    .middle{
+        display: block;
+    }
+    .right-field{
+        display: none;
+    }
+}
+@media (max-width: 900px){
+    .search-bar{
+        display: none;
+    }
+    .mobile-search{
+        display: block;
+    }
+    .uicon{
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    .uicon{
+        margin-right: 10px;
+    }
+}

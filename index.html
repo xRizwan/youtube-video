@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Copy</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="nav-bar">
+        <i class="material-icons menu-icon">menu</i>
+        <img class="logo" src="images/logo.png" height="20px">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search" />
+            <span class="search-btn">
+                <i class="material-icons search-icon">search</i>
+            </span>
+        </div>
+        <div class="user-icons">
+            <div class='mobile-search'>
+                <i class="material-icons uicon">search</i>
+            </div>
+            <i class="material-icons uicon">video_call</i>
+            <i class="material-icons uicon">waves</i>
+            <i class="material-icons uicon">notifications</i>
+            <div class="account-icon uicon">
+                <span class="user-text">R</span>
+            </div>
+        </div>
+    </nav>
+    <div class="content-container">
+        <div class="video-container">
+            <iframe
+                class="yt-video"
+                width="785"
+                height="450" 
+                src="https://www.youtube.com/embed/YOJsKatW-Ts"
+                frameborder="0" allow="accelerometer; 
+                autoplay; encrypted-media; 
+                gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="video-info-container">
+                <div class="yt-title">RAINING IN ＯＳＡＫＡ (Lofi HipHop)</div>
+                <div class="yt-info">
+                    <span class="views">15,598,139 views • </span>
+                    <span class="date">Feb 17, 2019</span>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="info-container">
+                    <div class="info-icon">
+                        <span class='text-float more-icon extra-icons'>...</span>
+                    </div>
+                    <div class="info-icon">
+                        <i class="material-icons extra-icons">playlist_add</i>
+                        <span class="text-float">Save</span>
+                    </div>
+                    <div class="info-icon">
+                        <i class="material-icons extra-icons">screen_share</i>
+                        <span class="text-float">Share</span>
+                    </div>
+                    <div class="info-icon">
+                        <i class="material-icons extra-icons">thumb_down</i>
+                        <span class="text-float">2.4k</span>
+                    </div>
+                    <div class="info-icon">
+                        <i class="material-icons extra-icons">thumb_up</i>
+                        <span class="text-float">287k</span>
+                    </div>
+                </div>
+            </div>
+            <div class="userinfo">
+                <div class="userinfo-container">
+                    <div class="outer-user-container">
+                        <div class="ui-container">
+                            <img src="images/bootleg.jpg" class="user-image">
+                        </div>
+                        <div class="un-container">
+                            <div class="name-info">
+                                the bootleg boy
+                                <i class="material-icons check-icon">check_circle</i>
+                            </div>
+                            <div class="sub-info">3.83M subscribers</div>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+                        <button class="sub-btn">Subscribe</button>
+                    </div>
+                    <div class="yt-about">
+                        <p>RAINING IN ＯＳＡＫＡ</p>
+                        <p>Lo-fi/Vaporwave beats mix</p>
+                        <p>Sleep & Rain mix</p>
+                        <div id="more-text" class="hidden">
+                            <br />
+                            <br />
+                            <p>Listen to another Rain mix here - https://www.youtube.com/watch?v=A7Wo0...</p>
+                            <br />
+                            <br />
+                            <p>Tracklist:</p>
+                            <br />
+                            <br />
+                            <p>0:00 ＴＲＡ＄Ｈ - Journey</p>
+                            <p>https://soundcloud.com/prod-trash</p>
+                            <br />
+                            <br />
+                            <p>2:24 BIDØ - last sunshine.</p>
+                            <p>https://soundcloud.com/bidolofi/last-...</p>
+                        </div>
+                        <p class="more-btn">Show More</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-outer-container">
+                <div class="comment-container">
+                    <div class="account-icon c-icon">
+                        <span class="c-text">R</span>
+                    </div>
+                    <input type="text" placeholder="Add a public comment"  class="comment"/>
+                    <button class="s-btn hidden">Send</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar right-field">
+            <div class="top-info">
+                <div>Up Next</div>
+                <div class="autoplayer">
+                    <span class="auto-text">autoplay</span>
+                    <!-- <i class="material-icons auto-icon">toggle_on</i> -->
+                    <div class="slider-box auto-icon">
+                        <div class="slider-circle"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- next videos display -->
+
+            <div class="nx-video-container">
+                <div class="nx-video">
+                    <img src="images/thumb1.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＯＳＡＫＡ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>7.3M views •</span>
+                            <span>3 years ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb2.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＲＩＯ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>2.1M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb3.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＰＡＲＩＳ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>9.32M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb4.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">NIGHT IN ＳＨＩＢＵＹＡ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>537K views •</span>
+                            <span>5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb5.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＫＹＯＴＯ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>4.5M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nx-video">
+                    <img src="images/thumb6.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">midnight aura. [lofi / jazzhop / chill mix]</div>
+                        <div class="thumb-poster" >
+                            The Jazz Hop Café
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>8.1M views •</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nx-video">
+                    <img src="images/thumb7.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＮＥＷ ＹＯＲＫ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>1M views •</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb8.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">Rainy Days In Tokyo [Lofi Hip Hop / Jazzhop / Chillhop Mix] - Beats to chill/study/relax</div>
+                        <div class="thumb-poster" >
+                            Amplitude
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>11M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nx-video">
+                    <img src="images/thumb9.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">listening to lofi while driving at night</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>2.2M views •</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="left-bar" style="display:none;">
+        <div class="top-menu">
+            <i class="material-icons menu-closer">menu</i>
+            <span class="logo2">
+                <img src="images/logo.png" width="100px">
+            </span>
+        </div>
+        <hr class="transp"/>
+        <div class="bar-item">
+            <i class="material-icons bar-icon">home</i>
+            <span class="bar-text">Home</span>
+        </div>
+        <div class="bar-item">
+            <i class="material-icons bar-icon">local_fire_department</i>
+            <span class="bar-text">Trending</span>
+        </div>
+        <div class="bar-item">
+            <i class="material-icons bar-icon">subscriptions</i>
+            <span class="bar-text">Subscriptions</span>
+        </div>
+        <hr class="transp"/>
+        <div class="bar-item">
+            <i class="material-icons bar-icon">video_library</i>
+            <span class="bar-text">Library</span>
+        </div>
+        <div class="bar-item">
+            <i class="material-icons bar-icon">history</i>
+            <span class="bar-text">History</span>
+        </div>
+        <div class="bar-item">
+            <i class="material-icons bar-icon">video_settings</i>
+            <span class="bar-text">Your videos</span>
+        </div>
+        <div class="bar-item">
+            <i class="material-icons bar-icon">watch_later</i>
+            <span class="bar-text">Watch later</span>
+        </div>
+    </div>
+
+
+    <!-- FOR MOBILE PHONES -->
+    <!-- VIDEO RECOMMENDATIONS -->
+    <div class="middle mobile-recommendations-container">
+        <div class="right-sidebar">
+            <div class="top-info">
+                <div>Up Next</div>
+                <div class="autoplayer">
+                    <span class="auto-text">autoplay</span>
+                    <!-- <i class="material-icons auto-icon">toggle_on</i> -->
+                    <div class="slider-box auto-icon">
+                        <div class="slider-circle"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- next videos display -->
+
+            <div class="nx-video-container">
+                <div class="nx-video">
+                    <img src="images/thumb1.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＯＳＡＫＡ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>7.3M views •</span>
+                            <span>3 years ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb2.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＲＩＯ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>2.1M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb3.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＰＡＲＩＳ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>9.32M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb4.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">NIGHT IN ＳＨＩＢＵＹＡ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>537K views •</span>
+                            <span>5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb5.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＫＹＯＴＯ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>4.5M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nx-video">
+                    <img src="images/thumb6.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">midnight aura. [lofi / jazzhop / chill mix]</div>
+                        <div class="thumb-poster" >
+                            The Jazz Hop Café
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>8.1M views •</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nx-video">
+                    <img src="images/thumb7.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">RAINING IN ＮＥＷ ＹＯＲＫ (Lofi HipHop)</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>1M views •</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nx-video">
+                    <img src="images/thumb8.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">Rainy Days In Tokyo [Lofi Hip Hop / Jazzhop / Chillhop Mix] - Beats to chill/study/relax</div>
+                        <div class="thumb-poster" >
+                            Amplitude
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>11M views •</span>
+                            <span>2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nx-video">
+                    <img src="images/thumb9.png" width="160px">
+                    <div class="thumb-info">
+                        <div class="thumb-title">listening to lofi while driving at night</div>
+                        <div class="thumb-poster" >
+                            the bootleg boy
+                            <i class="material-icons thumb-circle">check_circle</i>
+                        </div>
+                        <div class="thumb-stats">
+                            <span>2.2M views •</span>
+                            <span>1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
